@@ -1,0 +1,82 @@
+/* src/components/Newsletter.css */
+.newsletter-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #00494d;
+    color: white;
+    text-align: center;
+  }
+  
+  .newsletter-header {
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .newsletter-header form {
+    display: inline-block;
+  }
+  
+  .newsletter-header input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  .newsletter-header button {
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .newsletter-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .newsletter-footer div {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .explore, .support, .stay-connected, .footer-links {
+    text-align: left;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-links {
+    margin-top: 20px;
+  }
+  
+  .footer-links p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .footer-links ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-links ul li {
+    margin: 0 10px;
+  }
+  
